@@ -73,7 +73,7 @@ print('END')
 The `false` command always exits with a **non-zero** status code
 1. `check=True`: `subprocess.CalledProcessError` is raised. `completed` is not defined. `completed` is available only if no exception is available.
 2. `check=False`: no exception will be raised but `completed` is available.
-
 <br>
+
 ##### credts:
 - The Python 3 Standard Library by Example
